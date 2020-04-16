@@ -1,0 +1,1 @@
+Salut yann tout fonctionne si tu lis ce message sur ta vm et non au travers d'un partage d'écran
