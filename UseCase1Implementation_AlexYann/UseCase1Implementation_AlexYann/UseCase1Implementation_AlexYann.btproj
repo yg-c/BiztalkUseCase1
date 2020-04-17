@@ -67,8 +67,36 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Schema Include="Badge_To_Gate.xsd">
-      <TypeName>Badge_To_Gate</TypeName>
+    <Schema Include="Badge_Gate.xsd">
+      <TypeName>Badge_Gate</TypeName>
+      <Namespace>UseCase1Implementation_AlexYann</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
+  </ItemGroup>
+  <ItemGroup>
+    <Schema Include="Badge_SAP.xsd">
+      <TypeName>Badge_SAP</TypeName>
+      <Namespace>UseCase1Implementation_AlexYann</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
+  </ItemGroup>
+  <ItemGroup>
+    <Schema Include="Gate_SAP.xsd">
+      <TypeName>Gate_SAP</TypeName>
+      <Namespace>UseCase1Implementation_AlexYann</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
+  </ItemGroup>
+  <ItemGroup>
+    <Schema Include="Emergency_Gate.xsd">
+      <TypeName>Emergency_Gate</TypeName>
+      <Namespace>UseCase1Implementation_AlexYann</Namespace>
+      <SubType>Task</SubType>
+    </Schema>
+  </ItemGroup>
+  <ItemGroup>
+    <Schema Include="GateCrossing.xsd">
+      <TypeName>GateCrossing</TypeName>
       <Namespace>UseCase1Implementation_AlexYann</Namespace>
       <SubType>Task</SubType>
     </Schema>
