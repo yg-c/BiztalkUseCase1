@@ -132,6 +132,13 @@
       <SubType>Task</SubType>
     </Map>
   </ItemGroup>
+  <ItemGroup>
+    <Map Include="Gates_FF_to_SAP.btm">
+      <TypeName>Gates_FF_to_SAP</TypeName>
+      <Namespace>UseCase1Implementation_AlexYann</Namespace>
+      <SubType>Task</SubType>
+    </Map>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
 </Project>
