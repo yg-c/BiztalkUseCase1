@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
       <Name>System</Name>
@@ -95,11 +98,11 @@
     </Schema>
   </ItemGroup>
   <ItemGroup>
-    <Schema Include="GateCrossing.xsd">
-      <TypeName>GateCrossing</TypeName>
+    <Map Include="Emergency_FF_to_Gate_XML.btm">
+      <TypeName>Emergency_FF_to_Gate_XML</TypeName>
       <Namespace>UseCase1Implementation_AlexYann</Namespace>
       <SubType>Task</SubType>
-    </Schema>
+    </Map>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
